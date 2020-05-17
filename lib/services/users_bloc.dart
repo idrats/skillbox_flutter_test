@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:rxdart/rxdart.dart';
-import 'package:skillbox_test/api/api.dart';
+import 'package:skillbox_test/api/api_client.dart';
 import 'package:skillbox_test/models/user.dart';
 import 'package:skillbox_test/services/service_locator.dart';
 

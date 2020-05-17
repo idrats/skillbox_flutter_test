@@ -18,7 +18,7 @@ class SkillboxTestApp extends StatelessWidget {
           ),
           Provider<TodosBloc>(
             create: (_) => TodosBloc(),
-            dispose: (_, TodosBloc usersBloc) => usersBloc.dispose(),
+            dispose: (_, TodosBloc todosBloc) => todosBloc.dispose(),
           ),
         ],
         child: MaterialApp(
